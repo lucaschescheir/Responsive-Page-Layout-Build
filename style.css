@@ -1,0 +1,76 @@
+/*
+    NAV ELEMENT BACKGROUND : orange
+    NAV ELEMENT HOVER      : red
+
+    BREAKPOINTS
+
+    tablet  : 600px
+    desktop : 900px
+*/
+
+/*** Default Mobile Styles ****************************/
+
+
+
+
+
+
+
+
+/**** Tablet Styles ***********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/**** Desktop Styles ***********************************/
+
+
+body {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    margin-left: auto;
+
+}
+
+nav a {
+  background: orange;
+  height: 45px;
+  width: 240px;
+  margin: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  padding: 0px 0px;
+  padding-top: 20px;
+  box-shadow: 5px 5px 5px #888888;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (min-width:700px) {
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  nav a {
+    flex-basis: 45%;
+    justify-content: center;
+  }
+  }
+  @media (min-width: 900px) {
+
+  nav {
+  flex-wrap: nowrap;
+  }
